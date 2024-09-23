@@ -6,7 +6,7 @@ bot = telebot.TeleBot(chave_api)
 
 @bot.message_handler(commands=['poema'])
 def poema(message):
-    bot.reply_to(message, "Aqui vai um livro de indicação para você: 1984 de George Orwell. Uma leitura poderosa sobre liberdade, controle e a luta contra a opressão.")
+    bot.reply_to(message, "O mar sussurra segredos em ondas de sal, Eterna dança azul, um infinito sem final.")
 
 @bot.message_handler(commands=['filme'])
 def filme(message):
